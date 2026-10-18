@@ -2,6 +2,8 @@
 
 Ziel: Eine kleine, aber echte Datenpipeline bauen und dabei die Kernkonzepte des Data Engineering lernen. Jede Stufe baut auf der vorigen auf und hat ein klares "Fertig wenn".
 
+Erklärungen, Beispiele und Links zu allen Konzepten: [docs/learn/konzepte.md](docs/learn/konzepte.md).
+
 Stack-Vorschlag (alles lokal, kostenlos): Python, DuckDB, dbt, pytest, Dagster, GitHub Actions.
 
 Meilenstein 1 ist Stufe 5: Danach steht eine komplette Pipeline von der API bis zur Auswertung, auch wenn du danach pausierst.
