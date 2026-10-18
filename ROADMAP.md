@@ -71,6 +71,6 @@ Das ist ein Full Load ohne State, ohne Tests und ohne Fehlerbehandlung. Die näc
 - Mehr Quellen zusammenführen, z. B. Wetterdaten per Datum und Ort über die kostenlose historische API von Open-Meteo (ohne Key). Joins über Datenquellen, konforme Dimensionen, Entity Resolution. Lohnt sich schon direkt nach Meilenstein 1.
 
 ## Arbeitsweise
-Pro Stufe: erst selbst versuchen, dann Review oder Hilfe. Nach jeder Stufe committen und in 3 Sätzen notieren, was du gelernt hast.
+Pro Stufe: erst selbst versuchen, dann Review oder Hilfe. Nach jeder Stufe committen und in 3 Sätzen notieren, was du gelernt hast. Wichtige Entscheidungen als ADR in [docs/adr/](docs/adr/README.md) festhalten.
 
 Datenschutz ab dem ersten Commit: `start_latlng`, `end_latlng` und `map.summary_polyline` verraten deinen Wohnort. Test-Fixtures synthetisch oder anonymisiert erzeugen, bei aufgezeichneten API-Antworten (z. B. VCR-Cassettes) auch Tokens entfernen, und ein öffentlich erreichbares Dashboard ohne Karten und Startpunkte bauen.
