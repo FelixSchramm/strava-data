@@ -2,6 +2,12 @@
 
 Holt alle eigenen Aktivitäten über die Strava-API und speichert sie als JSON in `data/activities.json`.
 
+## Roadmap und Projektplanung
+
+- [ROADMAP.md](ROADMAP.md): Lern-Roadmap mit allen Stufen
+- [GitHub-Issues](https://github.com/FelixSchramm/strava-data/issues): ein Epic pro Stufe, die Umsetzungsschritte als Sub-Issues
+- [Projektplan in Google Sheets](https://docs.google.com/spreadsheets/d/1UnMTlwxNuaTQoNBttb11oBDMxZ_hOs1dvuAChn1CpBo/edit): Übersicht mit Fortschritt je Stufe und Aufgabenliste mit Status, Aufwand und Terminen
+
 ## 1. Strava-App anlegen
 
 1. Auf https://www.strava.com/settings/api eine App anlegen.
